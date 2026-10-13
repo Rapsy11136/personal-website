@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -36,65 +36,240 @@
 
         <div class="hero-buttons">
             <button onclick="scrollToSection('projects')">View Work</button>
-            <button class="secondary">Download CV</button>
+            <a class="secondary"
+            href="assets/Tshepiso-Raphepela-CV.pdf"
+            download="Tshepiso-Raphepela-CV.pdf">
+                <i class="fas fa-download"></i>
+                Download CV
+            </a>
         </div>
 
     </div>
 </section>
+
 
 <!-- ABOUT -->
 <section id="about" class="glass">
-    <h2>About Me</h2>
-    <p>
-      BSC Information Technology Graduate, passionate about 
-      enterprise data analysis, ETL, Data analysis and visualization 
-      using Excel and Power BI, risk assessment, and cybersecurity monitoring. 
-      I enjoy building responsive web apps and secure backend systems.
+    <p class="section-label">ABOUT ME</p>
+    <h2>Turning technology into practical solutions.</h2>
 
+    <p>
+        I am a BSc Information Technology graduate from Richfield
+        Graduate Institute of Technology, where I graduated Cum Laude.
+        My background includes software development, databases,
+        networking and information systems.
     </p>
+
+    <p>
+        I am particularly interested in business analysis, data analytics
+        and cybersecurity. I enjoy understanding a problem, identifying
+        what users need, analysing requirements and turning those
+        requirements into practical technical solutions.
+    </p>
+
+    <p>
+        Through my projects, I continue to develop my skills in building
+        web applications, working with databases, documenting workflows
+        and solving technical problems. I am keen to collaborate with
+        teams, learn from real-world projects and contribute to useful
+        digital solutions.
+    </p>
+
+    <div class="about-skills">
+        <span>Business Analysis</span>
+        <span>Data Analytics</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>SQL & Databases</span>
+        <span>Networking</span>
+        <span>Cybersecurity</span>
+        <span>Web Development</span>
+    </div>
 </section>
 
+
 <!-- PROJECTS -->
-<section id="projects">
-    <h2>Projects</h2>
+
+<section id="projects" class="projects-section">
+    <div class="section-heading">
+        <p class="section-label">MY PORTFOLIO</p>
+        <h2>Projects I've Been Building</h2>
+        <p class="section-description">
+            Practical projects where I explore technology, solve problems,
+            and develop my skills in software development, data and business analysis.
+        </p>
+    </div>
 
     <div class="projects-container">
 
-        <div class="project-card glass">
-            <h3>Web Development</h3>
-            <p>Modern responsive websites using ReactJS, Tailwind CSS and MySql.</p>
-        </div>
+        <!-- Project 1 -->
+        <article class="project-card glass">
+            <span class="project-status">In Development</span>
+            <h3>RequirementMatch AI</h3>
+            <p>
+                An AI-assisted career tool designed to compare CVs with job
+                requirements, identify skill gaps and recommend practical
+                improvements.
+            </p>
+            <p class="project-tech">
+                Python · FastAPI · AI · SQL
+            </p>
+            <a href="https://github.com/Rapsy11136"
+               target="_blank" rel="noopener noreferrer">
+                Explore on GitHub →
+            </a>
+        </article>
 
-        <div class="project-card glass">
-            <h3>Network Configurations</h3>
-            <p>Router, DHCP configuration, VLAN setups, and secure network design.</p>
-        </div>
+        <!-- Project 2 -->
+        <article class="project-card glass">
+            <span class="project-status">In Planning and Development</span>
+            <h3>College Deals</h3>
+            <p>
+                A student marketplace concept for buying and selling within
+                college communities, with student verification and
+                administrator review to support trust.
+            </p>
+            <p class="project-tech">
+                Requirements · Database Design · Web Development
+            </p>
+            <a href="https://github.com/Rapsy11136"
+               target="_blank" rel="noopener noreferrer">
+                Explore on GitHub →
+            </a>
+        </article>
 
-        <div class="project-card glass">
-            <h3>Data Analysis</h3>
-            <p>Data analysis and visualization using Excel and Power BI.</p>
-        </div>
+        <!-- Project 3 -->
+        <article class="project-card glass">
+            <span class="project-status">Desktop Application</span>
+            <h3>Smart Campus Booking System</h3>
+            <p>
+                A desktop application for managing campus resource bookings,
+                approval workflows, user roles and reports.
+            </p>
+            <p class="project-tech">
+                Python · CustomTkinter · SQLite
+            </p>
+            <a href="https://github.com/Rapsy11136/SmartCampusBookingSystemV02"
+               target="_blank" rel="noopener noreferrer">
+                View Repository →
+            </a>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card glass">
+            <span class="project-status">Web Application</span>
+            <h3>RichfieldConnect</h3>
+            <p>
+                A student community application concept with profiles,
+                registration and a feed designed to support learning
+                and collaboration.
+            </p>
+            <p class="project-tech">
+                React · React Router · JavaScript
+            </p>
+            <a href="https://github.com/Rapsy11136"
+               target="_blank" rel="noopener noreferrer">
+                Explore on GitHub →
+            </a>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card glass">
+            <span class="project-status">Live Website</span>
+            <h3>Smart IT Solutions</h3>
+            <p>
+                A professional IT services website presenting web
+                development, data analytics, cybersecurity and cloud services.
+            </p>
+            <p class="project-tech">
+                React · Vite · Tailwind CSS
+            </p>
+            <a href="https://smart-it-solutions-ashen.vercel.app/"
+               target="_blank" rel="noopener noreferrer">
+                Visit Website →
+            </a>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card glass">
+            <span class="project-status">Frontend Prototype</span>
+            <h3>ProjectVault</h3>
+            <p>
+                A project dashboard prototype for creating project cards,
+                organising information and removing projects through
+                interactive interface controls.
+            </p>
+            <p class="project-tech">
+                HTML · CSS · JavaScript
+            </p>
+            <a href="https://github.com/Rapsy11136"
+               target="_blank" rel="noopener noreferrer">
+                Explore on GitHub →
+            </a>
+        </article>
 
     </div>
 </section>
 
+
+
 <!-- CONTACT -->
 <section id="contact" class="glass">
-    <h2>Contact</h2>
+    <h2>Let's Connect</h2>
+
+    <p>
+        Interested in my projects, have an opportunity to share,
+        or want to collaborate? Feel free to reach out.
+    </p>
 
     <div class="socials">
-        <a href="https://github.com/Rapsy11136"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/tshepiso-raphepela-40831b238"><i class="fab fa-linkedin"></i></a>
-        <a href="https://web.facebook.com/Rapsysa11136/"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/rapsysa11136/"><i class="fab fa-instagram"></i></a>
-        <a href="https://youtube.com/@rapsysa_tech?si=s3MFBtFXCNTEBEbj"><i class="fab fa-youtube"></i></a>
-        <a href="https://x.com/Rapsy17232679"><i class="fab fa-twitter"></i></a>
-        <a href="mailto:belicrapsy@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/Rapsy11136"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/tshepiso-raphepela-40831b238/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://web.facebook.com/Rapsysa11136/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/rapsysa11136/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@RapsySA_Tech"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+
+        <a href="https://x.com/Rapsy17232679"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="X">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="mailto:belicrapsy@gmail.com"
+           aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Tshepiso Raphepela</p>
+    <p>© 2026 Tshepiso Raphepela. All rights reserved.</p>
 </footer>
+
 </div>
 
 <script src="script.js"></script>
